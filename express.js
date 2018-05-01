@@ -2,8 +2,8 @@ const http = require('http');
 const express = require('express');
 const app = express();
 app.get("/", (request, response) => {
-  console.log(Date.now() + " Ping Received");
-  response.sendStatus(200);
+  response.status(200);
+  response.end('hi')
 });
 app.listen(process.env.PORT);
 setInterval(() => {

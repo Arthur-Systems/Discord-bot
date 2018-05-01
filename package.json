@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "express": "^4.16.3",
-    "sparkbots": "github:advaith1/Spark-djs12#Development"
+    "sparkbots": "github:advaith1/Spark-djs12#Development",
+    "discord.js": "github:discordjs/discord.js#master"
   },
   "engines": {
     "node": "9.x"
