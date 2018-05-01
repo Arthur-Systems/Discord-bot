@@ -2,7 +2,7 @@ var Spark = require("sparkbots")
 const Command = Spark.command("eval")
 Command.setLevel(9)
 Command.allowDms(true)
-Command.setDescription('**Aliases**: none\n**Description**: Evals js code\n**Arguments**: Code to eval (required)\n**Example**: `!!eval message.reply(\'hi\')`')
+Command.setDescription('Runs JS code')
 module.exports = Command;
 
 Command.code = (client, message) => {

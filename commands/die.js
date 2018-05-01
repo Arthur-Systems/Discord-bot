@@ -2,7 +2,7 @@ var Spark = require("sparkbots")
 const Command = Spark.command("die")
 Command.setLevel(9)
 Command.allowDms(true)
-Command.setDescription('**Aliases**: none\n**Description**: Kills the bot\n**Arguments**: none\n**Example**: `!!die`')
+Command.setDescription('Kills the bot')
 module.exports = Command;
 
 Command.code = (client, message) => {
