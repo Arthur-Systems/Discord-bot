@@ -7,7 +7,7 @@ module.exports = Command;
 
 Command.code = (client, message) => {
 
-  message.channel.send(":ok_hand::skin-tone-4:  Killing the bot...")
+  message.channel.send(":ok_hand::skin-tone-1:  Killing the bot...")
         .then(() => {
             process.exit()
         })

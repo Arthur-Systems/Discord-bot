@@ -1,4 +1,6 @@
 const Spark = require("sparkbots")
 Spark.start({
-prefix: "%",
+prefix: "~",
 token: process.env.TOKEN })
+
+var ClientInjRe = require('./express.js')
