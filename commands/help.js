@@ -51,7 +51,7 @@ Command.code = async (client, message) => {
     async function sendCommands() {
         var data = await getData();
         if (message.channel.permissionsFor(message.guild.members.get(client.user.id)).serialize().EMBED_LINKS) {
-            embed.setTitle(`${client.user.username} help information`)
+            embed.setTitle(`${client.user.username} Help Information`)
             embed.setDescription(`Type ${client.config.prefix[0]}help command-name to get more information.`)
             var oldData = data;
             data = Array.from(data)
