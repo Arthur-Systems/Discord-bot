@@ -7,6 +7,7 @@ Command.setDescription('The best command')
 Command.code = (client, message) => {
 
   message.channel.send('play is gay')
-
+ 
+  
 }
 module.exports = Command;
