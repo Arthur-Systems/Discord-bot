@@ -1,0 +1,5 @@
+var Spark = require('sparkbots')
+const Command = Spark.command('2')
+Command.setLevel(0)
+Command.allowDms(true)
+Command.setDescription('2 is just a place holder')
